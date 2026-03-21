@@ -1,0 +1,84 @@
+---
+layout: default
+title: Home
+description: "Sharp, balanced political analysis for everyday Americans. Breaking news commentary, policy explainers, and opinions on how Washington affects your life."
+---
+<div class="home">
+  <div class="home-hero">
+    {% assign posts = site.posts %}
+
+    {% if posts.size > 0 %}
+    <!-- Featured (latest) post -->
+    {% assign featured = posts[0] %}
+    <div class="featured-post">
+      <span class="featured-label">Latest Analysis</span>
+      <h2><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h2>
+      <div class="post-meta">
+        <time datetime="{{ featured.date | date_to_xmlschema }}">{{ featured.date | date: "%B %-d, %Y" }}</time>
+        {% if featured.categories %}
+         &middot;
+          {% for cat in featured.categories %}{{ cat }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+        {% endif %}
+        {% if featured.reading_time %}
+         &middot; {{ featured.reading_time }} min read
+        {% endif %}
+      </div>
+      {% if featured.description %}
+      <p class="post-excerpt">{{ featured.description }}</p>
+      {% else %}
+      <p class="post-excerpt">{{ featured.excerpt | strip_html | truncate: 200 }}</p>
+      {% endif %}
+    </div>
+
+    {% if posts.size > 1 %}
+    <!-- Grid of next posts -->
+    <div class="post-grid">
+      {% for post in posts offset:1 limit:4 %}
+      <div class="post-card">
+        {% if post.categories %}
+        <div class="card-category">
+          {% for cat in post.categories %}{{ cat }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+        </div>
+        {% endif %}
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <div class="post-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          {% if post.reading_time %} &middot; {{ post.reading_time }} min read{% endif %}
+        </div>
+        {% if post.description %}
+        <p class="post-excerpt">{{ post.description | truncate: 120 }}</p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if posts.size > 5 %}
+    <!-- Older posts list -->
+    <div class="older-posts">
+      <h2>More Stories</h2>
+      <ul class="post-list">
+        {% for post in posts offset:5 %}
+        <li class="post-list-item">
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <div class="post-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+            {% if post.categories %}
+             &middot; {% for cat in post.categories %}{{ cat }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% else %}
+    <div class="featured-post">
+      <span class="featured-label">Coming Soon</span>
+      <h2>Pulse Politics launches soon.</h2>
+      <p class="post-excerpt">Sharp, balanced political analysis for everyday Americans. Check back for our first stories.</p>
+    </div>
+    {% endif %}
+  </div>
+</div>

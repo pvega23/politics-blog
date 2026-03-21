@@ -1,0 +1,145 @@
+{
+  "amazon_tag": "pulsepolitics-20",
+  "books": {
+    "art_of_the_deal": {
+      "title": "The Art of the Deal by Donald Trump",
+      "url": "https://www.amazon.com/Trump-Art-Deal-Donald-J/dp/0399594493?tag=pulsepolitics-20",
+      "author": "Donald Trump",
+      "category": "politics"
+    },
+    "promised_land": {
+      "title": "A Promised Land by Barack Obama",
+      "url": "https://www.amazon.com/Promised-Land-Barack-Obama/dp/1524763160?tag=pulsepolitics-20",
+      "author": "Barack Obama",
+      "category": "politics"
+    },
+    "becoming": {
+      "title": "Becoming by Michelle Obama",
+      "url": "https://www.amazon.com/Becoming-Michelle-Obama/dp/1524763136?tag=pulsepolitics-20",
+      "author": "Michelle Obama",
+      "category": "politics"
+    },
+    "economics_one_lesson": {
+      "title": "Economics in One Lesson by Henry Hazlitt",
+      "url": "https://www.amazon.com/Economics-One-Lesson-Shortest-Understand/dp/0517548232?tag=pulsepolitics-20",
+      "author": "Henry Hazlitt",
+      "category": "economics"
+    },
+    "why_nations_fail": {
+      "title": "Why Nations Fail by Daron Acemoglu & James Robinson",
+      "url": "https://www.amazon.com/Why-Nations-Fail-Origins-Prosperity/dp/0307719227?tag=pulsepolitics-20",
+      "author": "Daron Acemoglu",
+      "category": "economics"
+    },
+    "conscience_conservative": {
+      "title": "Conscience of a Conservative by Barry Goldwater",
+      "url": "https://www.amazon.com/Conscience-Conservative-Barry-Goldwater/dp/1607967863?tag=pulsepolitics-20",
+      "author": "Barry Goldwater",
+      "category": "politics"
+    },
+    "freakonomics": {
+      "title": "Freakonomics by Steven Levitt & Stephen Dubner",
+      "url": "https://www.amazon.com/Freakonomics-Economist-Explores-Hidden-Everything/dp/0060731338?tag=pulsepolitics-20",
+      "author": "Steven Levitt",
+      "category": "economics"
+    },
+    "how_democracies_die": {
+      "title": "How Democracies Die by Steven Levitsky & Daniel Ziblatt",
+      "url": "https://www.amazon.com/How-Democracies-Die-Steven-Levitsky/dp/1524762946?tag=pulsepolitics-20",
+      "author": "Steven Levitsky",
+      "category": "politics"
+    },
+    "political_order": {
+      "title": "Political Order and Political Decay by Francis Fukuyama",
+      "url": "https://www.amazon.com/Political-Order-Decay-Industrial-Globalization/dp/0374535620?tag=pulsepolitics-20",
+      "author": "Francis Fukuyama",
+      "category": "politics"
+    },
+    "basic_economics": {
+      "title": "Basic Economics by Thomas Sowell",
+      "url": "https://www.amazon.com/Basic-Economics-Thomas-Sowell/dp/0465060730?tag=pulsepolitics-20",
+      "author": "Thomas Sowell",
+      "category": "economics"
+    },
+    "thinking_fast_slow": {
+      "title": "Thinking, Fast and Slow by Daniel Kahneman",
+      "url": "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555?tag=pulsepolitics-20",
+      "author": "Daniel Kahneman",
+      "category": "economics"
+    },
+    "liberty_tyranny": {
+      "title": "Liberty and Tyranny by Mark Levin",
+      "url": "https://www.amazon.com/Liberty-Tyranny-Conservative-Mark-Levin/dp/1416562869?tag=pulsepolitics-20",
+      "author": "Mark Levin",
+      "category": "politics"
+    }
+  },
+  "services": {
+    "audible": {
+      "name": "Audible",
+      "url": "https://www.amazon.com/dp/B00NB86OYE?tag=pulsepolitics-20",
+      "description": "Listen to political books on the go — get your first audiobook free"
+    },
+    "kindle_unlimited": {
+      "name": "Kindle Unlimited",
+      "url": "https://www.amazon.com/kindle-dbs/hz/subscribe/ku?tag=pulsepolitics-20",
+      "description": "Unlimited access to thousands of political books and analysis"
+    },
+    "washington_post": {
+      "name": "Washington Post Digital",
+      "url": "https://www.amazon.com/Washington-Post-Digital-Access/dp/B072MHGLNL?tag=pulsepolitics-20",
+      "description": "Stay informed with one of America's leading news outlets"
+    }
+  },
+  "vpn_services": [
+    {
+      "name": "NordVPN",
+      "url": "https://nordvpn.com/?ref=YOUR_AFFILIATE_ID",
+      "commission": "$30-100 per sale",
+      "category": "privacy"
+    },
+    {
+      "name": "ExpressVPN",
+      "url": "https://expressvpn.com/?ref=YOUR_AFFILIATE_ID",
+      "commission": "$30-100 per sale",
+      "category": "privacy"
+    },
+    {
+      "name": "Surfshark",
+      "url": "https://surfshark.com/?ref=YOUR_AFFILIATE_ID",
+      "commission": "$20-50 per sale",
+      "category": "privacy"
+    }
+  ],
+  "news_subscriptions": [
+    {
+      "name": "The Economist",
+      "url": "https://www.amazon.com/Economist-Newspaper-Ltd/dp/B002PXVY8S?tag=pulsepolitics-20",
+      "category": "news"
+    },
+    {
+      "name": "The Atlantic",
+      "url": "https://www.amazon.com/Atlantic-Media-Company/dp/B004QOB192?tag=pulsepolitics-20",
+      "category": "news"
+    },
+    {
+      "name": "Foreign Affairs",
+      "url": "https://www.amazon.com/Foreign-Affairs/dp/B00005N7R0?tag=pulsepolitics-20",
+      "category": "news"
+    }
+  ],
+  "tools": [
+    {
+      "name": "NordVPN",
+      "url": "https://nordvpn.com/?ref=YOUR_AFFILIATE_ID",
+      "commission": "$30-100 per sale",
+      "category": "privacy"
+    },
+    {
+      "name": "The Economist Subscription",
+      "url": "https://www.amazon.com/Economist-Newspaper-Ltd/dp/B002PXVY8S?tag=pulsepolitics-20",
+      "commission": "Varies",
+      "category": "news"
+    }
+  ]
+}

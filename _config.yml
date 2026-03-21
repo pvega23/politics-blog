@@ -1,0 +1,54 @@
+title: Pulse Politics
+description: >-
+  Sharp, balanced political analysis for everyday Americans. Breaking news commentary,
+  policy explainers, and opinion on how Washington's decisions affect your wallet and your life.
+url: "https://pvega23.github.io"
+baseurl: "/politics-blog"
+author:
+  name: Pulse Politics
+  email: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Permalink structure (SEO-friendly)
+permalink: /:categories/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Pulse Politics"
+
+# Pagination
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - affiliate_links.json
+  - README.md
+
+# Analytics (add your Google Analytics ID)
+google_analytics: ""
+
+# AdSense (add your AdSense publisher ID)
+google_adsense: ""
+
+# Social
+social:
+  github: "https://github.com/pvega23"
